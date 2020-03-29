@@ -1,0 +1,27 @@
+.recipeCard{
+    width: auto;
+    height: auto;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    margin: 30px;
+    border-radius:5px;
+    box-shadow: 0 5px 10px #111;
+}
+
+.title{
+    background: linear-gradient(to right, #26a0da, #314755);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+
+.recipeImg{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
